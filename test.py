@@ -6,7 +6,7 @@ def josephus(ls, skip):
     
     while d:
         d.rotate(-skip)
-        survivor = d.popleft()  # Eliminamos el elemento seleccionado
+        survivor = d.popleft()
     
     return survivor
 
